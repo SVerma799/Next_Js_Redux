@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import { useSelector, useDispatch } from "react-redux";
 import { increament, decreament, selectValue } from "../slice/counterSlice";
